@@ -3,9 +3,13 @@ A fake "wallet miner" made by me in python.
 
 # How to run the script
 ## On a Debian system, do the following:
-```sudo apt install git python python3 python3-pip pip && git clone https://github.com/pwndd/COINHUNT && cd COINHUNT && pip install colorama termcolor psutil```
+```bash
+sudo apt install git python python3 python3-pip pip && git clone https://github.com/pwndd/COINHUNT && cd COINHUNT && pip install colorama termcolor psutil
+```
 ## On a Arch (btw) system, do this:
-```sudo pacman -Syyu && sudo pacman -S git python python3 python3-pip pip && git clone https://github.com/pwndd/COINHUNT && cd COINHUNT && pip install colorama termcolor psutil```
+```bash
+sudo pacman -Syyu && sudo pacman -S git python python3 python3-pip pip && git clone https://github.com/pwndd/COINHUNT && cd COINHUNT && pip install colorama termcolor psutil
+```
 
 # How the script works
 It first prints out a bunch of junk, including ascii art (~fancy~). Then, it "tests" a server and prints out some random IP and ping results. Then, the program prompts you to input how many wallets to go through. The program will start.
